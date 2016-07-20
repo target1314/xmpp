@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="CutPasteId">
+        <ignore path="src/com/xabber/android/ui/adapter/ChatViewerAdapter.java" />
+    </issue>
+    <issue id="DefaultLocale">
+        <ignore path="src/com/xabber/android/ui/ContactList.java" />
+    </issue>
+    <issue id="NewApi" severity="ignore">
+        <ignore path="src/com/xabber/android/ui/adapter/ChatMessageAdapter.java" />
+        <ignore path="src/com/xabber/android/ui/widget/MyView.java" />
+        <ignore path="src/com/xabber/android/utils/AudioRecorder.java" />
+    </issue>
+    <issue id="ResourceAsColor">
+        <ignore path="src/com/xabber/android/ui/GroupListActivity.java" />
+        <ignore path="src/com/xabber/android/ui/adapter/ChatMessageAdapter.java" />
+        <ignore path="src/com/xabber/android/ui/helper/ContactTitleInflater.java" />
+    </issue>
+</lint>

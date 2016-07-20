@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (c) 2013, Redsolution LTD. All rights reserved.
+
+     This file is part of Xabber project; you can redistribute it and/or
+     modify it under the terms of the GNU General Public License, Version 3.
+
+     Xabber is distributed in the hope that it will be useful, but
+     WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+     See the GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License,
+     along with this program. If not, see http://www.gnu.org/licenses/.
+-->
+<resources>
+    <color name="bright_foreground_dark">#ffffffff</color>
+    <color name="bright_foreground_light">#ff000000</color>
+    <color name="lightwhite">#000000</color>
+    <color name="whites">#158684</color>
+    <color name="contact_list_hover">#ffd9d9d9</color>
+    <color name="color_split_line_d9d9d9">#ffd9d9d9</color>
+    <color name="gray">#ff333333</color>
+    <color name="split_line_grey_color_d9d9d9">#ffd9d9d9</color>
+    <color name="white">#ffffff</color>
+    <color name="devlice">#fcfcfc</color>
+    <color name="driver">#454545</color>
+    <color name="select">#f0f0f0f0</color>
+    <color name="user_white">#4e4a4a</color>
+    <color name="user_selete">#191919</color>
+    <color name="user_information">#f7f5f4</color>
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="pull_refresh_textview">#000000</color>
+    <color name="gold">#000000</color>
+    <!-- start zxing -->
+    <color name="viewfinder_frame">#2477ab</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_view">#b0000000</color>
+    <color name="title_background">#191919</color>
+     <color name="main">#63C3FF</color>
+    <color name="actionbar_title_color">@android:color/white</color>
+    <color name="common_bottom_bar_selected_bg">#161718</color>
+     <color name="common_bottom_bar_normal_bg">#2d2f31</color>
+</resources>

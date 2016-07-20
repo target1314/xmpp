@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2013, Redsolution LTD. All rights reserved.
+
+     This file is part of Xabber project; you can redistribute it and/or
+     modify it under the terms of the GNU General Public License, Version 3.
+
+     Xabber is distributed in the hope that it will be useful, but
+     WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+     See the GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License,
+     along with this program. If not, see http://www.gnu.org/licenses/.
+-->
+<resources>
+
+    <style name="NotificationTitle">
+      <item name="android:textColor">#737373</item>
+      <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="NotificationText">
+      <item name="android:textColor">#737373</item>
+    </style>
+
+    <style name="NotificationText2" parent="@style/NotificationText">
+      <item name="android:textSize">13sp</item>
+      <item name="android:textColor">#737373</item>
+    </style>
+
+    <style name="ChatHeader" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="ChatHeader.Time">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="ChatHeader.Name">
+        <item name="android:textColor">#000000</item>   
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ChatHeader.Delay">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="ChatText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="ChatText.Small">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="ChatText.Normal">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="ChatText.Large">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="ChatText.XLarge">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="ChatInfo">
+        <item name="android:textSize">11sp</item>
+    </style>
+
+    <style name="ChatInfo.Warning">
+        <item name="android:textColor">#D00000</item>
+    </style>
+
+    <style name="ChatRead">
+        <!-- <item name="android:textColor">#222222</item> -->
+    </style>
+
+    <style name="ChatInfo.Info">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="ChatList" parent="@android:style/TextAppearance" />
+    <style name="ChatList.Normal">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="ChatList.Notification">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="OccupantList" parent="@android:style/TextAppearance" />
+    <style name="OccupantList.Moderator">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="OccupantList.Participant">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="OccupantList.Visitor">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+	
+     <style name="TransparentTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:actionBarStyle">@style/ActionBarStyle.Transparent</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+     <style name="ActionBarStyle.Transparent" parent="@android:Widget.ActionBar">
+        <item name="android:background">@null</item>
+        <item name="android:displayOptions">homeAsUp|showHome|showTitle</item>
+        <item name="android:titleTextStyle">@style/ActionBarStyle.Transparent.TitleTextStyle</item>
+    </style>
+    
+     <style name="ActionBarStyle.Transparent.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">   
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    
+    <dimen name="status_icon_width">24dip</dimen>
+    <dimen name="avatar_size">44dip</dimen>
+
+    <dimen name="title_height">44dip</dimen>
+
+    <dimen name="contact_list_item_padding_top">2dip</dimen>
+    <dimen name="contact_list_item_padding_bottom">5dip</dimen>
+    <dimen name="contact_list_item_height">60dip</dimen>
+    <!-- = avatar_size + contact_list_item_padding_top + contact_list_item_padding_bottom -->
+
+    <dimen name="contact_list_status_mode_width">44dip</dimen>
+    <!-- = status_icon_width + active_chat_padding_right * 2 -->
+
+    <dimen name="active_chat_padding_left">10dip</dimen>
+    <dimen name="active_chat_padding_top">0dip</dimen>
+    <dimen name="active_chat_padding_right">10dip</dimen>
+    <dimen name="active_chat_padding_bottom">0dip</dimen>
+
+    <dimen name="client_software_margin_left">34dip</dimen>
+    <!-- = active_chat_padding_right + status_icon_width -->
+
+    <dimen name="contact_name_height_hide_status">48dip</dimen>
+    <!-- = avatar_size - active_chat_padding_top - active_chat_padding_bottom -->
+    <dimen name="contact_name_height_show_status">24dip</dimen>
+    <!-- = contact_name_height_hide_status / 2 -->
+
+    <dimen name="expander_height">38dip</dimen>
+    <dimen name="expander_arrow_margin_left">6dip</dimen>
+    <dimen name="expander_arrow_margin_right">4dip</dimen>
+    <dimen name="expander_text_margin_right">16dip</dimen>
+    <!-- = ( status_icon_width - offline_mode_width ) / 2 + active_chat_padding_right -->
+
+    <!-- The width of the big icons in notifications. -->
+    <dimen name="notification_large_icon_width">64dp</dimen>
+    <!-- The width of the big icons in notifications. -->
+    <dimen name="notification_large_icon_height">64dp</dimen>
+    
+    
+     <style name="main_tab_bottom">
+        <item name="android:textSize">@dimen/bottom_tab_font_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">@dimen/bottom_tab_padding_up</item>
+        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">2.0dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    
+    <style name="mystyle" parent="android:Animation">  
+        <item name="@android:windowEnterAnimation">@anim/head_in</item>  //进入时的动画   
+        <item name="@android:windowExitAnimation">@anim/head_out</item>    //退出时的动画   
+    </style>
+     
+     <style name="chat_text_date_style">
+	    <item name="android:padding">2dp</item>    
+		<item name="android:textColor">#ffffff</item>   
+		<item name="android:textSize">12sp</item>      
+		<item name="android:background">#bfbfbf</item> 
+	</style>
+	
+      
+	<style name="chat_content_date_style">
+	    <item name="android:minHeight">50dp</item>
+	    <item name="android:gravity">left|center</item>    
+		<item name="android:textSize">15sp</item>      
+		<item name="android:textColor">#000000</item>   
+		<item name="android:lineSpacingExtra">2dp</item>   
+		<item name="android:clickable">true</item>   
+		<item name="android:focusable">true</item>   
+		<item name="android:background">@null</item> 
+	</style>	 
+	
+	<style name="chat_text_name_style">  
+		<item name="android:textColor">#818181</item>   
+		<item name="android:textSize">16sp</item>      
+		<item name="android:gravity">center</item> 
+	</style>
+	
+	<style name="DialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground"> @android:color/transparent </item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    
+	<style name="CustomCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">  
+    <item name="android:button">@drawable/checkbox_style</item>  
+</style>  
+</resources>

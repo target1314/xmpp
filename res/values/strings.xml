@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <!-- 数据库和文件路径 -->
+    <string name="dir">/eim</string>
+    <string name="app_dir">/app</string>
+    <string name="db_dir">/database</string>
+    <string name="img_dir">/img</string>
+    <string name="button_pushtotalk">按住  说话</string>
+    <string name="button_pushtocanle">松开  结束</string>
+    <string name="button_send">发送</string>
+    <string name="attach_smile">表情</string>
+    <string name="attach_picture">图片</string>
+    <string name="attach_take_pic">拍照</string>
+    <string name="attach_location">位置</string>
+    <string name="attach_file">文件</string>
+    <string name="user_card">名片</string>
+    <string name="video">视频</string>
+    
+    <!-- 主界面 -->
+    
+    <string name="home_chat">语聊</string>
+    <string name="home_map">地图显示</string>
+    <string name="home_near">附近的人</string>
+    <string name="home_game">推送指令</string>
+    <string name="home_other">新消息</string>
+    <string name="home_photo">头像</string>
+    <string name="home_account">账号</string>
+    <string name="home_stats">状态</string>
+    <string name="home_name">个性签名</string>
+    
+    
+    <!-- 菜单 -->
+    
+    <string name="menu_addfriend">添加朋友</string>
+    <string name="menu_group">发起群聊</string>
+    <string name="menu_state">状态</string>
+    <string name="menu_set">设置</string>
+    <string name="menu_quit">退出</string>
+    
+    <!-- 登录 -->
+    
+    <string name="login_account">账户</string>
+    <string name="login_password">密码</string>
+    <string name="login">登录</string>
+    
+    <!-- 添加好友 -->
+    <string name="account">账号</string>
+    <string name="nickname">昵称</string>
+    <string name="register">注册</string>
+    <string name="send">发送</string>
+    <string name="commint">确定</string>
+    
+    <!--  拍照-->
+    <string name="camera_photo">拍照</string>
+    <string name="pitcher">相册</string>
+    <string name="cancle">取消</string>
+    
+    <!-- 注册 -->
+    <string name="email">邮箱</string>
+     <string name="move_up_to_cancel">手指上滑，取消发送</string>
+    <string name="release_to_cancel">松开手指，取消发送</string>
+    
+</resources>

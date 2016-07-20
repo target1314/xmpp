@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/public_head" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_margin="25dip"
+            android:orientation="vertical" >
+
+            <com.xabber.android.ui.widget.NoDefaultSpinner
+                android:id="@+id/contact_account"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/choose_account" />
+
+       <!--      <EditText
+                android:id="@+id/muc_server"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:background="@drawable/login_input"
+                android:hint="@string/muc_server_hint"
+                android:inputType="textEmailAddress"
+                android:text="admin.win-ek1n7dvpqti"
+                android:singleLine="true" />
+ -->
+            <EditText
+                android:id="@+id/muc_room"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:background="@drawable/login_input"
+                android:layout_marginTop="5dip"
+                android:hint="@string/muc_room"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/muc_nick"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/login_input"
+                android:hint="@string/muc_nick_hint"
+                android:singleLine="true" />
+
+            <!-- <EditText
+                android:id="@+id/muc_password"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip"
+                android:background="@drawable/login_input"
+                android:hint="@string/muc_password_hint"
+                android:password="true"
+                android:singleLine="true" /> -->
+
+            <CheckBox
+                android:id="@+id/muc_join"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:layout_marginTop="5dip"
+                android:text="@string/muc_join"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal|bottom"
+                android:layout_marginTop="5dip"
+                android:orientation="horizontal" >
+
+                <com.xabber.android.utils.OntouchBtn
+                    android:id="@+id/ok"
+                    android:layout_width="fill_parent"
+                    android:layout_height="44dip"
+                    android:background="@drawable/login_bright"
+                    android:text="@string/muc_save"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
