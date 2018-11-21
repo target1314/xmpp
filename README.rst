@@ -15,7 +15,4 @@ XMPP(二)-基于asmack+openfire的安卓客户端（仿QQ）
 7.退出；
 
 ## 演示
- ![image](https://github.com/target1314/xmpp/blob/master/20150123234128901.png)
- ![image](https://github.com/target1314/xmpp/blob/master/20150123234149078.png)
- ![image](https://github.com/target1314/xmpp/blob/master/20150123234152987.png)
- ![image](https://github.com/target1314/xmpp/blob/master/20150123234205763.png)
+![image](https://github.com/target1314/xmpp/blob/master/20150123234128901.png)
