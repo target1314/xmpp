@@ -1,38 +1,16 @@
-Xabber - XMPP client for Android
-================================
+XMPP(二)-基于asmack+openfire的安卓客户端（仿QQ）
 
-Open source Jabber (XMPP) client with multi-account support, clean and simple interface.
-Being both free (as in freedom!) and ad-free, Xabber is designed to be the best Jabber client for Android.
+1.注册；
 
-Supported protocols
-===================
+2.登录；
 
-* RFC-3920: Core
-* RFC-3921: Instant Messaging and Presence
-* XEP-0030: Service Discovery
-* XEP-0128: Service Discovery Extensions
-* XEP-0115: Entity Capabilities
-* XEP-0054: vcard-temp
-* XEP-0153: vCard-Based Avatars
-* XEP-0045: Multi-User Chat (incompletely)
-* XEP-0078: Non-SASL Authentication
-* XEP-0138: Stream Compression
-* XEP-0203: Delayed Delivery
-* XEP-0091: Legacy Delayed Delivery
-* XEP-0199: XMPP Ping
-* XEP-0147: XMPP URI Scheme Query Components
-* XEP-0085: Chat State Notifications
-* XEP-0184: Message Delivery Receipts
-* XEP-0155: Stanza Session Negotiation
-* XEP-0059: Result Set Management
-* XEP-0136: Message Archiving
-* XEP-0224: Attention
+3.依昵称查找人员；
 
-Translations
-============
+4.添加好友（发送好友申请，对方接收好友请求，并同意，方可成为好友）；
 
-We use webtranslateit.com as our translation system.
-All related resources are automatically generated from files got with webtranslateit.com.
-If you want to update any translation please email us to info[at]xabber.com and specify all the translation languages you want to edit.
-Then we'll send an invitation to our project on webtranslateit.com.
-Please don't create pull requests with translation fixes as any changes will be overwritten with the next update from webtranslateit.com.
+5.界面上的，包括最近联系人，好友列表等；
+
+6.聊天：目前支持的类型有文本，图片，位置，动态表情等；（这里要说明下，在该初级版本，图片的路径和位置坐标是固定的）；
+
+7.退出；
+
